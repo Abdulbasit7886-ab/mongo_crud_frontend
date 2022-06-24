@@ -184,9 +184,8 @@ async function remove(x) {
     })
     .catch((error) => console.log(error));
   window.location.href = "admin.html";
-}
-
-
+  }
+  //good basit
 async function register() {
   let name = document.getElementById("name").value;
   let email = document.getElementById("email").value;
